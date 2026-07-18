@@ -1,9 +1,9 @@
-import barber1 from '../assets/images/barber.jpg';
-import barber2 from '../assets/images/barber 2.jpg';
-import beard1 from '../assets/images/beard 1.jpg';
-import beard2 from '../assets/images/beard 2.jpg';
-import fade1 from '../assets/images/fade 1.jpg';
-import fade2 from '../assets/images/fade 2.jpg';
+import barber1 from '../assets/Images/barber.jpg';
+import barber2 from '../assets/Images/barber 2.jpg';
+import beard1 from '../assets/Images/beard 1.jpg';
+import beard2 from '../assets/Images/beard 2.jpg';
+import fade1 from '../assets/Images/fade 1.jpg';
+import fade2 from '../assets/Images/fade 2.jpg';
 
 // Export the array of 6 items
 export const galleryImages = [
