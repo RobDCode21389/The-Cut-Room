@@ -2,12 +2,12 @@ import React from "react"
 import { barbersData } from "../data/barbers"
 
 // Images imported here in the component instead of data file
-import barberImg1 from '../assets/images/dwade.jpg'
-import barberImg2 from '../assets/images/marco.png'
-import barberImg3 from '../assets/images/qwonn.png'
-import barberImg4 from '../assets/images/smigg.png'
-import barberImg5 from '../assets/images/q.jpg'
-import barberImg6 from '../assets/images/jackson.jpg'
+import barberImg1 from '../assets/Images/dwade.jpg'
+import barberImg2 from '../assets/Images/marco.png'
+import barberImg3 from '../assets/Images/qwonn.png'
+import barberImg4 from '../assets/Images/smigg.png'
+import barberImg5 from '../assets/Images/q.jpg'
+import barberImg6 from '../assets/Images/jackson.jpg'
 
 // Array to match images to barbers by index
 const barberImages = [barberImg1, barberImg2, barberImg3, barberImg4, barberImg5, barberImg6]
