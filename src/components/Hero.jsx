@@ -15,7 +15,7 @@ function Hero() {
           <p className="hero-label">Welcome To The Cut Room</p>
 
           <h1 className="hero-title">
-            Precision. <span>Style.</span> Confidence.
+            Precision.  <span>Style. </span> Confidence.
           </h1>
 
           <p className="hero-sub">

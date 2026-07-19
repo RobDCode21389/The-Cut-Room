@@ -301,34 +301,52 @@ ul {
 
 /* ============ RESPONSIVE ABOUT ============ */
 @media screen and (max-width: 768px) {
+  .about {
+    padding: 3rem 1rem; /* Bring section padding down so it doesn't push elements down */
+  }
+
   .about-container {
     flex-direction: column;
     text-align: center;
-    gap: 25px;
-    padding: 40px 20px;
+    gap: 20px;
+    padding: 0;
     display: flex;
   }
 
   .about-image {
-    max-height: 300px;
     width: 100%;
+    height: 300px; /* Restrict height to 300px so it fits beautifully on smaller device viewports */
+    min-height: unset; /* Break the desktop 550px constraint */
     overflow: hidden;
     border-radius: 8px;
+    flex-shrink: 0;
+    padding: 0;
+    margin: 0;
   }
 
   .about-img {
     width: 100%;
-    height: 400%;
+    height: 100%;
+    min-height: unset; /* Break the desktop 500px constraint */
     object-fit: cover;
     object-position: center;
+    border-radius: 8px; /* Keep the nice round corners on mobile */
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+
+  .about-content {
+    gap: 1rem;
+    width: 100%;
   }
 
   .about-stats {
-    gap: 1rem;
+    gap: 1.5rem;
     justify-content: center;
+    padding: 1rem 0;
   }
 }
-
 /* ============ SERVICES ============ */
 .services {
   padding: 6rem 2rem;
@@ -1018,7 +1036,7 @@ ul {
   }
 
   .hero-sub {
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     padding: 0 3px;
   }
 
