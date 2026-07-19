@@ -1,16 +1,84 @@
-# React + Vite
+# The Cut Room — Barbershop Demo Site
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern, premium barbershop website built in React as a 
+freelance demo to showcase frontend development services 
+to local barbershop businesses.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
+[View Live Demo](https://thecutroomdemo.netlify.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📸 About
+The Cut Room is a fully responsive React barbershop website 
+demo built to demonstrate what a modern local business 
+website can look like. Designed with a premium black and 
+gold aesthetic, the site features smooth hover interactions, 
+data-driven components and Booksy booking integration.
 
-## React Compiler
+This project was built as a teaching exercise and freelance 
+portfolio piece — demonstrating React component architecture, 
+data driven UI and responsive design for real world client work.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
+- Full screen hero section with barbershop background image
+- Services section driven by data file — add a service 
+  in one place and it appears automatically
+- Photo gallery with 6 barbershop images
+- Meet The Barbers section with hover overlay showing 
+  name, specialty and Book Me button
+- Operation hours section driven by data file
+- About section with real barbershop photography
+- Mobile responsive with hamburger navigation
+- Booksy booking integration
+- Premium black and gold color scheme
+- Footer with portfolio credit link
 
-## Expanding the Oxlint configuration
+## 🛠️ Built With
+- React
+- Vite
+- CSS Variables
+- Deployed on Netlify
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## ⚙️ React Concepts Used
+- Component based architecture
+- Data driven UI with services.js, hours.js and barbers.js
+- Props for passing data between components
+- useState for mobile navigation toggle
+- Array mapping with keys for services and hours
+- CSS hover effects for barber profile cards
+- Conditional rendering
+- Responsive design with CSS Grid and Flexbox
+
+## 🏗️ Architecture
+src/
+components/
+Navbar.jsx      ← fixed nav with hamburger menu
+Hero.jsx        ← full screen hero with background image
+About.jsx       ← two column layout with real photo
+Services.jsx    ← data driven service cards
+Gallery.jsx     ← 6 photo grid
+Hours.jsx       ← operation hours from data file
+Barbers.jsx     ← barber profiles with hover effect
+Footer.jsx      ← three column footer
+data/
+services.js     ← service names and prices
+hours.js        ← business hours
+barbers.js      ← barber names and specialties
+assets/
+images/         ← all site photography
+
+## 💼 Built For
+This demo was built to pitch frontend development services 
+to local barbershops in the Gastonia and Charlotte, NC area. 
+The structure is designed so a real barbershop owner can 
+easily swap in their own:
+- Photos and branding
+- Barber names and specialties  
+- Service menu and pricing
+- Booksy profile link
+- Business hours and address
+
+## 👤 Author
+Robert Davis — Frontend Developer
+- Portfolio: [robertdavis-front-end-developer.netlify.app](https://robertdavis-front-end-developer.netlify.app)
+- GitHub: [@RobDCode21389](https://github.com/RobDCode21389)
+- Contra: [contra.com/robert_davis_cbvzmcu5](https://contra.com/robert_davis_cbvzmcu5)
