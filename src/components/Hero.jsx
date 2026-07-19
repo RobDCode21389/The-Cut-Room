@@ -1,4 +1,4 @@
-import barbershopBg from "../assets/Images/barbershop.jpg"
+import barbershopBg from "../assets/images/barbershop.jpg"
 
 function Hero() {
   return (

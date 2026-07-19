@@ -1,4 +1,4 @@
-import barberphoto from "../assets/Images/about.jpg"
+import barberphoto from "../assets/images/about.jpg"
 
 function About() {
   return <section id="about" className="about">
